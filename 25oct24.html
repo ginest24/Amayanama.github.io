@@ -1,9 +1,21 @@
-let myDiv = document.createElement('div');
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body><script>
+    let myDiv = document.createElement('div');
 myDiv.innerText = 'мой DIV';
-document.body.appened(myDiv);
+document.body.append(myDiv);
 let myButton = document.createElement('button');
-myDiv.innerText = 'моя кнопка';
-document.body.appened(myButton);
+myButton.innerText = 'моя кнопка';
+document.body.append(myButton);
 let myImage = document.createElement('img');
-myImage.scr = 'имя файла c картинкой';
-document.body.appened(myImage);
+myImage.src = 'p1.jpg';
+document.body.append(myImage);
+</script>
+</html>
